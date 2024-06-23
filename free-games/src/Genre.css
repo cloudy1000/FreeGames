@@ -1,0 +1,64 @@
+.Genre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* Hides horizontal scroll bar and show vertical scroll bar */
+    overflow-y: auto;
+    overflow: hidden;
+    /* Add space */
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
+
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Style the submit button */
+.submit-btn {
+    /* Color of the text */
+    color: white;
+    /* !important is a cascading selector which overrides another selector to specify the color of the submit button */
+    background-color: rgb(0, 0, 0) !important;
+    /* Makes the button round */
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    /* Pointed hand when the user puts mouse over button */
+    cursor: pointer;
+    width: 13vw;
+}
+
+/* For both the input field and the input button */
+input {
+    /* flex-grow: 1; */
+    font-family: "Lucida Console", "Courier New", monospace;
+    /* Space inside input element */
+    padding: 15px;
+    font-size: 20px;
+    /* Default color of input property */
+    background-color: white;
+    /* Border for input property */
+    border: 1px solid black;
+}
+
+/* For the input field */
+.search-genre {
+    /* Length of input field */
+    width: 30vw;
+    /* Round the edges */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* Color of input field */
+    background-color: white;
+}
+
+/* Style the loading message and the list of games */
+.loading-div,
+.games-genre {
+    margin-top: 15px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

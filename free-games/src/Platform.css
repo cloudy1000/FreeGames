@@ -1,0 +1,38 @@
+/* Style the overall of component */
+.games {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* Hides horizontal scroll bar and keeps vertical scroll bar */
+    overflow-y: auto;
+    overflow: hidden;
+    /* Add spacing inside and outside container */
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    gap: 20px;
+    /* Space between the buttons/elements */
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Styles the PC and Browser buttons */
+.pc-btn,
+.browser-btn {
+    color: white;
+    background-color: #000000;
+    /* Rounds the edges */
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    /* Hand points when mouse points to buttons */
+    cursor: pointer;
+    width: 13vw;
+    font-family: "Lucida Console", "Courier New", monospace;
+    /* flex-grow: 1; */
+    padding: 15px;
+    /* Space inside button to the border of button */
+    font-size: 20px;
+}

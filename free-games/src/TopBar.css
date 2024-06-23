@@ -1,0 +1,37 @@
+/* Uses z-index and fixed positioning to display an element stacked on top of another element */
+marquee,
+nav {
+    color: white;
+    /* Font color */
+    background-color: rgb(94, 94, 94);
+    /* Color of top bar */
+    box-shadow: 0px 0px 4px;
+    position: fixed;
+    /* Fixed positioning so bar sticks at the top even when the user scrolls the page */
+    z-index: 2;
+    /* Set z-index to 2 so the top bar has higher stack order and appears on top of all other elements */
+    width: 100%;
+    /* Relative size */
+    /* Length of bar extends all across page */
+    height: 20px;
+    /* Fixed size */
+}
+
+/* .click-me {
+    margin-left: 90px;
+    color: black;
+    background-color: #0dff00;
+    
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    
+    cursor: pointer;
+    width: 6vw;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 5px;
+    
+    font-size: 10px;
+    margin-top: -10px;
+} */

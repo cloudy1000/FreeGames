@@ -1,0 +1,77 @@
+.content-container {
+    /* Use display grid to create a layout with multiple rows and columns */
+    display: grid;
+    /* Resource: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows */
+    grid-auto-rows: minmax(100px, auto);
+    overflow-y: auto;
+    overflow: hidden;
+    /* align-content: start; */
+    /* grid-template-columns: repeat(1fr, 1fr); */
+}
+
+h1 {
+    margin-top: 40px;
+    /* Space before the header */
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.year {
+    background-color: rgb(246, 247, 184);
+    text-align: center;
+    transition: all .2s ease-in-out;
+    /* Animation using transition */
+    box-shadow: 5px 5px 9px rgb(117, 117, 117);
+    /* Creates shadows under the elements */
+}
+
+/* pseudo-class hover */
+.year:hover {
+    transform: scale(1.001);
+    /* How fast the animation moves */
+}
+
+.genre {
+    background-color: rgb(215, 243, 227);
+    text-align: center;
+    transition: all .2s ease-in-out;
+    /* Animation using transition */
+    box-shadow: 5px 5px 9px rgb(117, 117, 117);
+    /* Creates shadows under the elements */
+}
+
+.genre:hover {
+    transform: scale(1.001);
+    /* How fast the animation moves */
+}
+
+.url {
+    background-color: rgb(215, 243, 227);
+    text-align: center;
+    transition: all .2s ease-in-out;
+    /* Animation using transition */
+    box-shadow: 5px 5px 9px rgb(117, 117, 117);
+    /* Creates shadows under the elements */
+}
+
+.url:hover {
+    transform: scale(1.001);
+    /* How fast the animation moves */
+}
+
+.platform {
+    background-color: rgb(246, 247, 184);
+    text-align: center;
+    transition: all .2s ease-in-out;
+    /* Animation using transition */
+    box-shadow: 5px 5px 9px rgb(117, 117, 117);
+    /* Creates shadows under the elements */
+
+}
+
+.platform:hover {
+    transform: scale(1.001);
+    /* How fast the animation moves */
+}
