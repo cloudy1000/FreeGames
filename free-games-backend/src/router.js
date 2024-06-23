@@ -32,6 +32,11 @@ async function fetchData() {
 // Only need to call once to put data into Firestore, so it is commented out since the data are all already currently in Firestore
 // fetchData();
 
+// Default
+router.get('/', (req, res) => {
+  res.status(200).send("Server is online...")
+})
+
 router.get('/genre/:genre', async (req, res) => {
   // Returns a list of games based on genre
   const params = req.params;
