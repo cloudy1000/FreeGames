@@ -26,7 +26,7 @@ body {
     border-top-right-radius: 10px;
     /* Pointed hand when the user puts mouse over button */
     cursor: pointer;
-    width: 13vw;
+    width: 30%;
 }
 
 /* For both the input field and the input button */
@@ -45,7 +45,7 @@ input {
 /* For the input field */
 .search-year {
     /* Length of input field */
-    width: 30vw;
+    width: 55%;
     /* Round the edges */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;

@@ -30,7 +30,7 @@ body {
 
 .games-urls {
     /* Format the links */
-    margin-top: 15px;
+    margin-top: 1rem;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -48,10 +48,11 @@ body {
     border-top-left-radius: 10px;
     /* Hand points when mouse points to buttons */
     cursor: pointer;
-    width: 13vw;
+    width: 10rem;
     font-family: "Lucida Console", "Courier New", monospace;
     /* flex-grow: 1; */
     padding: 15px;
     /* Space inside button to the border of button */
     font-size: 20px;
+    margin-bottom: 1rem;
 }
